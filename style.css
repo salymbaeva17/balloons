@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 15px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.balloons {
+  align-items: center;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(2, 200px);
+  grid-gap: 15px;
+}
+
+.slots {
+  margin-top: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slots__grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-column-gap: 15px;
+  text-align: center;
+}
+.slots .slot {
+  padding: 10px 0;
+  border: 2px solid #e71616;
+}
+
+.bx-refresh {
+  font-size: 60px;
+}
+
+/*# sourceMappingURL=style.css.map */
