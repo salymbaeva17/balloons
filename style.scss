@@ -52,9 +52,11 @@ body{
   margin: 0 auto;
   padding: 0 15px;
 }
-.balloons{
+.balloons img{
   align-items: center;
-  text-align: center;
+  margin-left: 19px;
+  margin-top: 21px;
+  cursor: crosshair;
 }
 .grid{
   display: grid;
@@ -63,7 +65,7 @@ body{
   grid-gap: 15px;
 }
 .slots{
-  margin-top: 160px;
+  margin-top: 140px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,11 +76,18 @@ body{
     text-align: center;
   }
   .slot{
-    padding: 10px 0;
     border: 2px solid #e71616;
+    padding: 10px 17px;
+    margin-top: 10px;
+    cursor: grabbing;
   }
 }
 
 .bx-refresh{
   font-size: 60px;
+}
+.refresh-btn{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
